@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "seebaermichi/unit-conversions",
+    "description": "A package for unit conversion in PHP.",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "seebaermichi",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/seebaermichi/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Michael Becker",
+            "email": "seebaermichi@gmx.de",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Seebaermichi\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Seebaermichi\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
